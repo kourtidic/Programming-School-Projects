@@ -1,0 +1,313 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+}
+
+.hero {
+    text-align: center;
+    margin: 20px;
+}
+
+.hero img,
+.hero video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    background: #000;
+    color: #fff;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#lista {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#lista li {
+    margin: 0 15px;
+}
+
+#lista a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#lista a:hover {
+    color: #ffae00;
+}
+
+.gallery {
+    text-align: center;
+    margin: 20px;
+}
+
+.gallery h2 {
+    margin-bottom: 10px;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery-images img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.squad-hero {
+    text-align: center;
+    margin: 20px;
+}
+
+.squad-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.squad-info {
+    margin: 20px;
+}
+
+.h2 {
+    color: #333;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.h3 {
+    color: #666;
+    margin-left: 20px;
+    font-size: 1.2em;
+}
+
+.players-list {
+    list-style: none;
+    padding: 0;
+}
+
+.players-list li {
+    margin-bottom: 10px;
+}
+.history-hero {
+    text-align: center;
+    margin: 20px;
+}
+
+.history-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.history-content {
+    margin: 20px;
+}
+
+.match-hero {
+    text-align: center;
+    margin: 20px;
+}
+
+.match-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.match-table {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #000;
+    color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+.leaderboard-hero {
+    text-align: center;
+    margin: 20px;
+}
+
+.leaderboard-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.leaderboard-table {
+    margin: 20px;
+}
+.contact-hero {
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-details {
+    margin: 20px;
+}
+
+.contact-info {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h2.h2 {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form1 {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #444;
+}
+a:hover {
+    text-decoration: underline;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.login-form label {
+    margin-right: 5px;
+    color: #fff;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.login-form input[type="submit"] {
+    background: #fff;
+    color: #000;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background: #444;
+    color: #fff;
+}
